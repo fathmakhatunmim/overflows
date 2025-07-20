@@ -1,0 +1,23 @@
+body{
+    margin-left: 50px;
+}
+
+
+
+
+
+.container,.inner{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    border: 2px solid rgb(14, 116, 156);
+    background-color: aqua;
+}
+.inner{
+    border: 2px solid brown;
+    background-color: palegoldenrod;
+    /* transform: scale(0.75); */
+    /* transform: rotate(45deg); */
+    transform: scale(0.5) rotate(-45deg);
+}
